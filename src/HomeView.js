@@ -4,7 +4,7 @@ import {
   Layout, Menu, Icon, Row, Col, Avatar
 } from 'antd';
 
-const { Header, Content, Sider } = Layout;
+const { Header, Sider, Content } = Layout;
 
 class HomeView extends Component {
 
@@ -14,17 +14,19 @@ class HomeView extends Component {
         <Content>
           <img src="./img.jpg" style={{ width: '100%', height: 'auto' }}/>
           <Layout className="ContentBlock">
-            <Sider style={{ background: '#fff' }}>
-              <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
-            </Sider>
-            <Content className="content" style={{ background: '#fff' }}>
-              <div>
-                <h2>{this.props.data.name}</h2>
-                <b><text>{this.props.data.profession}</text></b>
-                <br/>
-                <Icon type="environment"/><text>{this.props.data.location}</text>
-              </div>
-            </Content>
+            <Layout className="layout">
+              <Sider style={{ background: '#fff' }}>
+                <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
+              </Sider>
+              <Content className="content" style={{ background: '#fff' }}>
+                <div>
+                  <h2>{this.props.data.name}</h2>
+                  <b><text>{this.props.data.profession}</text></b>
+                  <br/>
+                  <Icon type="environment"/><text>{this.props.data.location}</text>
+                </div>
+              </Content>
+            </Layout>
           </Layout>
       </Content>
       </Layout>
