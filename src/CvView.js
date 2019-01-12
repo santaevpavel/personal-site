@@ -51,7 +51,7 @@ class CvView extends Component {
       <Layout className="layout">
         <Content style={{
             background: '#fff', width: 'auto', height: 'auto',
-            margin: '0em 24em 8em 24em',
+            margin: '0em 24em 2em 24em',
             padding: '2em'
         }}>
           <h2>Key skills</h2>
