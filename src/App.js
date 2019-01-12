@@ -27,9 +27,6 @@ class App extends Component {
       case '3':
         scrollToComponent(this.refHeader3, { align: 'top' });
         break;
-      case '4':
-        scrollToComponent(this.refHeader4, { align: 'top' });
-        break;
       default:
         alert("Illegal id " + e.key)
         break
@@ -54,9 +51,9 @@ class App extends Component {
           </Menu>
         </Header>
         <Content>
-          <HomeView data={data.itemHome}/>
-          <CvView data={data.itemCV}/>
-          <ContactsView data={data.itemContacts}/>
+          <HomeView data={data.itemHome} ref={(header) => this.refHeader1 = header}/>
+          <CvView data={data.itemCV} ref={(header) => this.refHeader2 = header}/>
+          <ContactsView data={data.itemContacts} ref={(header) => this.refHeader3 = header}/>
         </Content>
   </Layout>
     );
