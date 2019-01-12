@@ -1,7 +1,7 @@
 {
-  "name": "cv",
+  "name": "personal-site",
   "version": "0.1.0",
-  "homepage": "https://2mba.github.io/",
+  "homepage": "https://santaevpavel.github.io/",
   "private": true,
   "dependencies": {
     "antd": "^3.11.0",
