@@ -28,5 +28,27 @@
           "about": "About...\nAbout..."
         }
       ]
-    }
+    },
+    "itemContacts": [
+      {
+        "icon": "mail",
+        "title": "santaevp@gmail.com",
+        "link": "mailto:santaevp@gmail.com"
+      },
+      {
+        "icon": "github",
+        "title": "santaevpavel",
+        "link": "https://github.com/santaevpavel"
+      },
+      {
+        "icon": "linkedin",
+        "title": "Pavel Santaev",
+        "link": "https://www.linkedin.com/in/pavel-santaev-618891b7/"
+      },
+      {
+        "icon": "skype",
+        "title": "Skype",
+        "link": "example.com"
+      }
+    ]
 }

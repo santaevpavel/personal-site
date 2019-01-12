@@ -5,6 +5,8 @@ import data from './data.json';
 
 import HomeView from './HomeView.js';
 import CvView from './CvView.js';
+import ContactsView from './ContactsView.js';
+
 import {
   Layout, Menu, Icon, Row, Col
 } from 'antd';
@@ -54,6 +56,7 @@ class App extends Component {
         <Content>
           <HomeView data={data.itemHome}/>
           <CvView data={data.itemCV}/>
+          <ContactsView data={data.itemContacts}/>
         </Content>
   </Layout>
     );
