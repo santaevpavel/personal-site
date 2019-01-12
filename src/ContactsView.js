@@ -27,7 +27,7 @@ class ContactsView extends Component {
   render() {
     return (
       <Layout className="layout">
-        <Content className="ContentBlock">
+        <Content className="ContentBlock" style={{ marginBottom: "50px" }}>
           <h2>Contacts</h2>
           <div>
             { this.getContacts() }
