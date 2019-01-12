@@ -12,7 +12,7 @@ class HomeView extends Component {
     return (
       <Layout className="layout">
         <Content>
-          <img src="./img.png" style={{ width: '100%', height: 'auto' }}/>
+          <img src="./img.jpg" style={{ width: '100%', height: 'auto' }}/>
           <Layout className="layout" style={{
               background: '#fff', width: 'auto', height: 'auto',
               margin: '2em 24em 2em 24em',
