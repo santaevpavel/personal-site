@@ -8,6 +8,14 @@ const { Header, Content } = Layout;
 
 class CvView extends Component {
 
+  getAbout() {
+    return (
+      <div>
+        <td dangerouslySetInnerHTML={{__html: this.props.data.about}} />
+      </div>
+    )
+  }
+
   getTechnologies() {
     return this.props.data.technologies.map(tag => <Tag>{ tag }</Tag>)
   }
@@ -37,7 +45,7 @@ class CvView extends Component {
         <br/>
         <b>{experience.title}</b>
         <br/>
-        {experience.about}
+        {<td dangerouslySetInnerHTML={{__html: experience.about}} />}
       </Timeline.Item>
       )
     );
@@ -50,6 +58,9 @@ class CvView extends Component {
     return (
       <Layout className="layout">
         <Content className="ContentBlock">
+          <h2>About</h2>
+          { this.getAbout() }
+          <br/>
           <h2>Key skills</h2>
           <h2>Technologies, Tools</h2>
           <div>

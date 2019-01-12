@@ -3,10 +3,11 @@
     "name": "Santaev Pavel",
     "itemHome": {
       "name": "Santaev Pavel",
-      "profession": "Android Engeneer at Sibext Ltd.",
+      "profession": "Android Software Engeneer at Sibext Ltd.",
       "location": "Novosibirsk, Russia."
     },
     "itemCV": {
+      "about": "<b>Master's dissertation: </b></br>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. \nProgram has written in C++. <br/><a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">Link to dissertation.</a>",
       "keySkills": {},
       "technologies": [ "Java", "Kotlin", "Android", "Gradle"],
       "educations": [
@@ -24,8 +25,8 @@
       "workExperiances": [
         {
           "date": "2015-now",
-          "title": "Android Engeneer, Sibext Ltd, Novosibirsk",
-          "about": "About...\nAbout..."
+          "title": "Android Engeneer, Android Team Lead, Sibext Ltd, Novosibirsk",
+          "about": "Development and supporting interactive books android application for kids. <a href=\"https://play.google.com/store/apps/details?id=com.azbooks.bookshelf\">Link to app</a><br/>Development and supporting android application for smart home. <a href=\"https://play.google.com/store/apps/details?id=com.nesscorporation.mezzo\">Link to app</a>"
         }
       ]
     },
