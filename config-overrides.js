@@ -11,7 +11,7 @@ module.exports = function override(config, env) {
       '@primary-color': '#006d75',
       '@menu-dark-bg': '#ffffff00',
       '@menu-dark-item-active-bg': '#000000ee',
-      '@font-size-base' : '18px',
+      '@font-size-base' : '20px',
       '@font-size-lg' : '@font-size-base + 2px',
       '@font-size-sm' : '14px',
       '@text-color' : '#000000',
