@@ -36,15 +36,13 @@ class App extends Component {
   render() {
     return (
       <Layout className="layout">
-        <Header className="header"
-          style={{ position: 'top', zIndex: 1, width: '100%', height: '0px',
-            background: '#000000ff' }}>
+        <Header className="Header">
           <Menu
+            className="AppMenu"
             onClick={this.handleClick}
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['1']}
-            style={{ lineHeight: '64px', background: '#00000000', padding: '0em 24em 0em 24em', width: '100%' }}>
+            defaultSelectedKeys={['1']}>
               <Menu.Item key="1">Home</Menu.Item>
               <Menu.Item key="2">Portfolio</Menu.Item>
               <Menu.Item key="3">Contacts</Menu.Item>

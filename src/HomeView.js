@@ -13,11 +13,7 @@ class HomeView extends Component {
       <Layout className="layout">
         <Content>
           <img src="./img.jpg" style={{ width: '100%', height: 'auto' }}/>
-          <Layout className="layout" style={{
-              background: '#fff', width: 'auto', height: 'auto',
-              margin: '2em 24em 2em 24em',
-              padding: '2em'
-          }}>
+          <Layout className="ContentBlock">
             <Sider style={{ background: '#fff' }}>
               <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
             </Sider>

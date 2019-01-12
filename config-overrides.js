@@ -10,7 +10,7 @@ module.exports = function override(config, env) {
     modifyVars: {
       '@primary-color': '#006d75',
       '@menu-dark-bg': '#ffffff00',
-      '@menu-dark-item-active-bg': '#000000ee',
+      '@menu-dark-item-active-bg': '@primary-color',
       '@font-size-base' : '20px',
       '@font-size-lg' : '@font-size-base + 2px',
       '@font-size-sm' : '14px',

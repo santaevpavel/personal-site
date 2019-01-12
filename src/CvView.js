@@ -49,18 +49,13 @@ class CvView extends Component {
   render() {
     return (
       <Layout className="layout">
-        <Content style={{
-            background: '#fff', width: 'auto', height: 'auto',
-            margin: '0em 24em 2em 24em',
-            padding: '2em'
-        }}>
+        <Content className="ContentBlock">
           <h2>Key skills</h2>
           <h2>Technologies, Tools</h2>
           <div>
             { this.getTechnologies() }
           </div>
           <br/>
-
           <h2>Education</h2>
             { this.getEducations() }
           <br/>
