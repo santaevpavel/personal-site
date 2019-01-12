@@ -8,7 +8,7 @@ import CvView from './CvView.js';
 import ContactsView from './ContactsView.js';
 
 import {
-  Layout, Menu, Icon, Row, Col
+  Layout, Menu, Icon, BackTop
 } from 'antd';
 
 const { Header, Content } = Layout;
@@ -52,6 +52,7 @@ class App extends Component {
           <HomeView data={data.itemHome} ref={(header) => this.refHeader1 = header}/>
           <CvView data={data.itemCV} ref={(header) => this.refHeader2 = header}/>
           <ContactsView data={data.itemContacts} ref={(header) => this.refHeader3 = header}/>
+          <BackTop/>
         </Content>
   </Layout>
     );
