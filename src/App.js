@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import scrollToComponent from 'react-scroll-to-component';
-//import "antd/dist/antd.css";
 import './App.css';
+import data from './data.json';
 
 import HomeView from './HomeView.js';
 import CvView from './CvView.js';
@@ -52,20 +52,8 @@ class App extends Component {
           </Menu>
         </Header>
         <Content>
-          <HomeView/>
-          <CvView/>
-          <Layout class="ContentStyle">
-            <h1 ref={(header) => this.refHeader1 = header}>Header 1</h1>
-            <img src="https://4apk.ru/wp-content/uploads/2018/02/android-1.jpg"/>
-          </Layout>
-          <Layout class="ContentStyle">
-            <h1 ref={(header) => this.refHeader2 = header}>Header 2</h1>
-            <img src="https://4apk.ru/wp-content/uploads/2018/02/android-1.jpg"/>
-          </Layout>
-          <Layout class="ContentStyle">
-            <h1 ref={(header) => this.refHeader3 = header}>Header 3</h1>
-            <img src="https://4apk.ru/wp-content/uploads/2018/02/android-1.jpg"/>
-          </Layout>
+          <HomeView data={data.itemHome}/>
+          <CvView data={data.itemCV}/>
         </Content>
   </Layout>
     );

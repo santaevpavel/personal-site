@@ -1,0 +1,32 @@
+{
+    "title": "Santaev Pavel",
+    "name": "Santaev Pavel",
+    "itemHome": {
+      "name": "Santaev Pavel",
+      "profession": "Android Engeneer at Sibext Ltd.",
+      "location": "Novosibirsk, Russia."
+    },
+    "itemCV": {
+      "keySkills": {},
+      "technologies": [ "Java", "Kotlin", "Android", "Gradle"],
+      "educations": [
+        {
+          "date": "2015-2017",
+          "university": "Novosibirsk State University (NSU), Novosibirsk",
+          "direction": "Master, Department of Information Technologies"
+        },
+        {
+          "date": "2011-2015",
+          "university": "Novosibirsk State University (NSU), Novosibirsk",
+          "direction": "Bachelor, Department of Information Technologies"
+        }
+      ],
+      "workExperiances": [
+        {
+          "date": "2015-now",
+          "title": "Android Engeneer, Sibext Ltd, Novosibirsk",
+          "about": "About...\nAbout..."
+        }
+      ]
+    }
+}

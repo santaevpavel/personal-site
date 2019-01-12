@@ -23,10 +23,10 @@ class HomeView extends Component {
             </Sider>
             <Content className="content" style={{ background: '#fff' }}>
               <div>
-                <h2>Santaev Pavel</h2>
-                <b><text>Android Engeneer at Sibext Ltd.</text></b>
+                <h2>{this.props.data.name}</h2>
+                <b><text>{this.props.data.profession}</text></b>
                 <br/>
-                <Icon type="environment"/><text>Novosibirsk, Russia.</text>
+                <Icon type="environment"/><text>{this.props.data.location}</text>
               </div>
             </Content>
           </Layout>

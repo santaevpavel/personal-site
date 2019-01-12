@@ -8,6 +8,44 @@ const { Header, Content } = Layout;
 
 class CvView extends Component {
 
+  getTechnologies() {
+    return this.props.data.technologies.map(tag => <Tag>{ tag }</Tag>)
+  }
+
+  getEducations() {
+    var timelines = this.props.data.educations.map(education =>
+      (
+        <Timeline.Item dot={<Icon type="book" theme="outlined"/>}>
+        <text>{education.date}</text>
+        <br/>
+        <b>{education.university}</b>
+        <br/>
+        {education.direction}
+      </Timeline.Item>
+      )
+    );
+    return (
+      <Timeline>{timelines}</Timeline>
+    );
+  }
+
+  getWorkExperiances() {
+    var experiences = this.props.data.workExperiances.map(experience =>
+      (
+        <Timeline.Item dot={<Icon type="laptop" theme="outlined"/>}>
+        <text>{experience.date}</text>
+        <br/>
+        <b>{experience.title}</b>
+        <br/>
+        {experience.about}
+      </Timeline.Item>
+      )
+    );
+    return (
+      <Timeline>{experiences}</Timeline>
+    );
+  }
+
   render() {
     return (
       <Layout className="layout">
@@ -19,38 +57,15 @@ class CvView extends Component {
           <h2>Key skills</h2>
           <h2>Technologies, Tools</h2>
           <div>
-            <Tag>Android</Tag>
-            <Tag>Gradle</Tag>
-            <Tag>GitLab CI</Tag>
-            <Tag>Java</Tag>
-            <Tag>Kotlin</Tag>
+            { this.getTechnologies() }
           </div>
           <br/>
+
           <h2>Education</h2>
-          <Timeline>
-            <Timeline.Item dot={<Icon type="book" theme="outlined"/>}>
-              <text>2015-2017</text>
-              <br/>
-              <b>Новосибирский национальный исследовательский государственный университет (НГУ), Новосибирск.</b>
-              <br/>
-              Информационных технологий, Информатика и вычислительная техника
-            </Timeline.Item>
-            <Timeline.Item dot={<Icon type="book" theme="outlined"/>}>
-              <text>2011-2015</text>
-              <br/>
-              <b>Новосибирский национальный исследовательский государственный университет (НГУ), Новосибирск.</b>
-              <br/>
-              Информационных технологий, Информатика и вычислительная техника
-            </Timeline.Item>
-          </Timeline>
-          <h2>Work experience</h2>
+            { this.getEducations() }
           <br/>
-          <Timeline>
-            <Timeline.Item>Create a services site 2015-09-01</Timeline.Item>
-            <Timeline.Item>Solve initial network problems 2015-09-01</Timeline.Item>
-            <Timeline.Item>Technical testing 2015-09-01</Timeline.Item>
-            <Timeline.Item>Network problems being solved 2015-09-01</Timeline.Item>
-          </Timeline>
+          <h2>Work experience</h2>
+          { this.getWorkExperiances() }
         </Content>
   </Layout>
     );
