@@ -48,7 +48,7 @@ class App extends Component {
               <Menu.Item key="3">Contacts</Menu.Item>
           </Menu>
         </Header>
-        <Content>
+        <Content style={{ width: '100%', minWidth: '1200px' }}>
           <HomeView data={data.itemHome} ref={(header) => this.refHeader1 = header}/>
           <CvView data={data.itemCV} ref={(header) => this.refHeader2 = header}/>
           <ContactsView data={data.itemContacts} ref={(header) => this.refHeader3 = header}/>

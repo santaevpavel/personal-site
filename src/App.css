@@ -1,22 +1,14 @@
-.App {
+.Container {
+  position: relative;
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
-  margin: 2em 0em 0em 0em;
+  min-width: 1200px;
+}
+
+.HeaderImage {
+  width: 100%;
+  height: auto;
+  min-width: 1200px;
 }
 
 .Header {
@@ -24,6 +16,7 @@
   z-index: 1;
   width: 100%;
   height: 64px;
+  min-width: 1200px;
   background: #000000ff;
 }
 
