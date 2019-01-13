@@ -12,7 +12,15 @@ class HomeView extends Component {
     return (
       <Layout className="layout">
         <Content>
-          <img src="./img.jpg" style={{ width: '100%', height: 'auto' }}/>
+          <div className="container">
+            <img src="./img.jpg" style={{ width: '100%', height: 'auto' }}/>
+            <div className="Centered">
+              <div className="HomeTextContent">
+                <text style={{ color: 'white', fontSize: '80px' }}>{this.props.data.header.title}</text>
+                <text style={{ color: '#fffa', fontSize: '40px' }}>{this.props.data.header.subtitle}</text>
+              </div>
+            </div>
+          </div>
           <Layout className="ContentBlock">
             <Layout className="layout">
               <Sider style={{ background: '#fff' }}>
