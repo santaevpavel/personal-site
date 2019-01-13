@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-  Layout, Menu, Icon, Row, Col, Avatar
+  Layout, Menu, Icon, Avatar, Tooltip
 } from 'antd';
 
 const { Header, Sider, Content } = Layout;
@@ -24,7 +24,9 @@ class HomeView extends Component {
           <Layout className="ContentBlock">
             <Layout className="layout">
               <Sider style={{ background: '#fff' }}>
-                <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
+                <Tooltip title="He is me!">
+                  <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
+                </Tooltip>
               </Sider>
               <Content className="content" style={{ background: '#fff' }}>
                 <div>
