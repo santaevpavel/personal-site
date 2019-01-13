@@ -44,7 +44,7 @@ class App extends Component {
             mode="horizontal"
             defaultSelectedKeys={['1']}>
               <Menu.Item key="1">Home</Menu.Item>
-              <Menu.Item key="2">Portfolio</Menu.Item>
+              <Menu.Item key="2">About</Menu.Item>
               <Menu.Item key="3">Contacts</Menu.Item>
           </Menu>
         </Header>
