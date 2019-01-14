@@ -45,7 +45,7 @@ class CvView extends Component {
         <br/>
         <b>{experience.title}</b>
         <br/>
-        {<td dangerouslySetInnerHTML={{__html: experience.about}} />}
+        {<td dangerouslySetInnerHTML={{__html: experience.about.join('')}} />}
       </Timeline.Item>
       )
     );
