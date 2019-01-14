@@ -16,6 +16,8 @@ module.exports = function override(config, env) {
       '@font-size-sm' : '14px',
       '@text-color' : '#000000',
       '@text-color-dark' : '#000000',
+      '@tag-default-bg' : '#006d75',
+      '@tag-default-color' : '#ffffff',
       '@font-family' : 'Consolas'
     },
     javascriptEnabled: true,
