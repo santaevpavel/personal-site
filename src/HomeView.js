@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ProgressiveImage  from 'react-progressive-image';
 import './App.css';
 import {
   Layout, Menu, Icon, Avatar, Tooltip
@@ -13,7 +14,13 @@ class HomeView extends Component {
       <Layout className="layout">
         <Content>
           <div className="Container">
-            <img src="./img.jpg" className="HeaderImage"/>
+            <ProgressiveImage
+              src="./img.jpg"
+              placeholder="./img-tiny.jpg">
+                {(src, loading) => {
+                  return <img src={src} alt="an image" className="HeaderImage"/>
+                }}
+            </ProgressiveImage>
             <div className="Centered">
               <div className="HomeTextContent">
                 <text style={{ color: 'white', fontSize: '80px' }}>{this.props.data.header.title}</text>
