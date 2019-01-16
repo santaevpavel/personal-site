@@ -14,11 +14,13 @@ module.exports = function override(config, env) {
       '@font-size-base' : '18px',
       '@font-size-lg' : '@font-size-base + 2px',
       '@font-size-sm' : '14px',
+      '@font-weight' : '300',
       '@text-color' : '#000000',
       '@text-color-dark' : '#000000',
       '@tag-default-bg' : '#006d75',
       '@tag-default-color' : '#ffffff',
-      '@font-family' : 'Consolas'
+      '@line-height-base' : '1.8',
+      '@font-family' : "'Fira Mono', sans-serif"
     },
     javascriptEnabled: true,
   })(config, env);
