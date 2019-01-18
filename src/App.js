@@ -6,6 +6,7 @@ import data from './data.json';
 import HomeView from './HomeView.js';
 import CvView from './CvView.js';
 import ContactsView from './ContactsView.js';
+import ProjectsView from './ProjectsView.js';
 
 import {
   Layout, Menu, Icon, BackTop
@@ -27,6 +28,9 @@ class App extends Component {
       case '3':
         scrollToComponent(this.refHeader3, { align: 'top' });
         break;
+      case '4':
+        scrollToComponent(this.refHeader4, { align: 'top' });
+        break;
       default:
         alert("Illegal id " + e.key)
         break
@@ -45,13 +49,15 @@ class App extends Component {
             defaultSelectedKeys={['1']}>
               <Menu.Item key="1">Home</Menu.Item>
               <Menu.Item key="2">About</Menu.Item>
-              <Menu.Item key="3">Contacts</Menu.Item>
+              <Menu.Item key="3">Projects</Menu.Item>
+              <Menu.Item key="4">Contacts</Menu.Item>
           </Menu>
         </Header>
         <Content style={{ width: '100%', minWidth: '1200px' }}>
           <HomeView data={data.itemHome} ref={(header) => this.refHeader1 = header}/>
           <CvView data={data.itemCV} ref={(header) => this.refHeader2 = header}/>
-          <ContactsView data={data.itemContacts} ref={(header) => this.refHeader3 = header}/>
+          <ProjectsView data={data.itemProjects} ref={(header) => this.refHeader3 = header}/>
+          <ContactsView data={data.itemContacts} ref={(header) => this.refHeader4 = header}/>
           <BackTop/>
         </Content>
   </Layout>
