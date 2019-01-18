@@ -64,6 +64,21 @@ class CvView extends Component {
     );
   }
 
+  getLanguages() {
+    var langs = this.props.data.languages.map(lang =>
+      (
+        <div>
+         <i>{lang.lang}</i> — {lang.level}<br/>
+        </div>
+      )
+    )
+    return (
+      <div>
+        {langs}
+      </div>
+    )
+  }
+
   render() {
     return (
       <Layout className="layout">
@@ -76,15 +91,16 @@ class CvView extends Component {
             { this.getSkills() }
           </div>
           <br/>
-          <h2>Technologies, Tools</h2>
-          <div>
-            { this.getTechnologies() }
-          </div>
-          <br/>
           <h2>Education</h2>
             { this.getEducations() }
           <h2>Work experience</h2>
           { this.getWorkExperiances() }
+          <h2>Languages</h2>
+          { this.getLanguages() }
+          <br/>
+          <h2>Technologies, Tools</h2>
+          { this.getTechnologies() }
+          <br/>
         </Content>
   </Layout>
     );
