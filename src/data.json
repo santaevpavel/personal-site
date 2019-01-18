@@ -13,8 +13,8 @@
     "itemCV": {
       "about": "I'am software engeneer from Russia with 4+ year experience.<br/>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>English language level:</i> pre-intermediate, intermediate (can read technical documentation and chat via internet)<br/><i>Hobbies:</i> programming, football, table tennis.<br/><br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. \nProgram has written in C++. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a>",
       "keySkills": {
-          "advanced": [ "Kotlin", "Java", "Android" ],
-          "basic": [ "Kotlin/Native", "C/C++", "C#" , "Gradle", "DI", "Clean Architecture" ]
+          "advanced": [ "Kotlin", "Java", "Android", "OOP", "Design patterns", "RxJava", "NDK", "Sqlite" ],
+          "basic": [ "Kotlin/Native", "C/C++", "C#" , "Gradle", "Clean Architecture" ]
       },
       "technologies": [ "Java", "Kotlin", "Android", "Gradle", "Clean Architecture" ],
       "educations": [
