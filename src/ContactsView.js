@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import ym from 'react-yandex-metrika';
 import {
   Layout, Menu, Icon
 } from 'antd';
@@ -8,13 +9,16 @@ const { Header, Content, Sider } = Layout;
 
 class ContactsView extends Component {
 
+  onClickContact(type) {
+    ym('reachGoal', 'ClickContact', { type: type});
+  }
+
   getContacts() {
     var contacts = this.props.data.map(contact =>
       (
         <div>
           <Icon type={contact.icon} theme="outlined"/>
-          <text> </text>
-          <a href={contact.link}>{contact.title}</a>
+          <a href={contact.link} onClick={(e) => this.onClickContact(contact.title)} >{contact.title}</a>
           <br/>
         </div>
       )
