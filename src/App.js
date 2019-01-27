@@ -14,6 +14,7 @@ import {
 } from 'antd';
 
 const { Header, Content } = Layout;
+const yandexMetrikaAppId = process.env.REACT_APP_YANDEX_METRIKA_APP_ID
 
 class App extends Component {
 
@@ -45,7 +46,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <YMInitializer accounts={[xxx]} />
+        <YMInitializer accounts={[yandexMetrikaAppId]} />
         <Layout className="layout">
           <Header className="Header">
             <Menu
