@@ -11,7 +11,7 @@
       "location": "Novosibirsk, Russia."
     },
     "itemCV": {
-      "about": "I'am software engeneer from Russia with 4+ year experience.<br/>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Hobbies:</i> programming, football, table tennis.<br/><br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. \nProgram has written in C++. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a>",
+      "about": "I'am software engeneer from Russia with 4+ year experience.<br/>Currently work at Sibext as a<b> Android Team Lead</b>. My personal projects available on <a href=\"https://github.com/santaevpavel\">Github</a>.<br/></br>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a><br/><br/><i>Hobbies:</i> programming, football, table tennis.",
       "keySkills": {
           "advanced": [ "Kotlin", "Java", "Android", "OOP", "Design patterns", "RxJava" ],
           "basic": [ "Kotlin/Native", "C/C++", "C#" , "Gradle", "Clean Architecture" ]
