@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ym from 'react-yandex-metrika';
 import './App.css';
 import {
   Layout, Menu, Icon, Row, Col, Timeline, Tag, Card, Carousel, Divider
@@ -7,6 +8,10 @@ import {
 const { Header, Content } = Layout;
 
 class ProjectsView extends Component {
+
+  onClickGithubLink() {
+    ym('reachGoal', 'ClickGithubProjectLink');
+  }
 
   getProjects() {
     return (
@@ -19,7 +24,7 @@ class ProjectsView extends Component {
             <i>Technologies: </i>RxJava, Google Architecture Components, Dagger, Retrofit, Material Design, JUnit.<br/><br/>
 
             <Icon type="github" theme="outlined"/>
-            <a href={"https://github.com/santaevpavel/ClipboardTranslator"}> View sources on Github</a>
+            <a href={"https://github.com/santaevpavel/ClipboardTranslator"} onClick={(e) => this.onClickGithubLink()}> View sources on Github</a>
             <br/>
           </Col>
           <Col span={8}>
@@ -34,7 +39,7 @@ class ProjectsView extends Component {
             <i>Technologies: </i>Kotlin, RxJava, JUnit.<br/><br/>
 
             <Icon type="github" theme="outlined"/>
-            <a href={"https://github.com/2mba/aragorn"}> View sources on Github</a>
+            <a href={"https://github.com/2mba/aragorn"}  onClick={(e) => this.onClickGithubLink()}> View sources on Github</a>
             <br/>
           </Col>
         </Row>
@@ -46,7 +51,7 @@ class ProjectsView extends Component {
             <i>Technologies: </i>Kotlin, Ktor.<br/><br/>
 
             <Icon type="github" theme="outlined"/>
-            <a href={"https://github.com/santaevpavel/QuizTelegramBot"}> View sources on Github</a>
+            <a href={"https://github.com/santaevpavel/QuizTelegramBot"}  onClick={(e) => this.onClickGithubLink()}> View sources on Github</a>
             <br/>
           </Col>
         </Row>
