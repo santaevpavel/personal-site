@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import './App.css';
 import ym from 'react-yandex-metrika';
 import {
-  Layout, Menu, Icon
+  Layout,  Icon
 } from 'antd';
 
-const { Header, Content, Sider } = Layout;
+const { Content } = Layout;
 
 class ContactsView extends Component {
 

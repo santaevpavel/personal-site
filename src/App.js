@@ -10,7 +10,7 @@ import ContactsView from './ContactsView.js';
 import ProjectsView from './ProjectsView.js';
 
 import {
-  Layout, Menu, Icon, BackTop
+  Layout, Menu, BackTop
 } from 'antd';
 
 const { Header, Content } = Layout;

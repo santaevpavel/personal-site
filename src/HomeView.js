@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import ProgressiveImage  from 'react-progressive-image';
 import './App.css';
 import {
-  Layout, Menu, Icon, Avatar, Tooltip
+  Layout,  Icon, Avatar, Tooltip
 } from 'antd';
 
-const { Header, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 
 class HomeView extends Component {
 
@@ -18,7 +18,7 @@ class HomeView extends Component {
               src="./img.jpg"
               placeholder="./img-tiny.jpg">
                 {(src, loading) => {
-                  return <img src={src} alt="an image" className="HeaderImage"/>
+                  return <img src={src} alt="beauty" className="HeaderImage"/>
                 }}
             </ProgressiveImage>
             <div className="Centered">

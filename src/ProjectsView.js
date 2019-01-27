@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import ym from 'react-yandex-metrika';
 import './App.css';
 import {
-  Layout, Menu, Icon, Row, Col, Timeline, Tag, Card, Carousel, Divider
+  Layout, Icon, Row, Col, Divider
 } from 'antd';
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 class ProjectsView extends Component {
 
@@ -28,7 +28,7 @@ class ProjectsView extends Component {
             <br/>
           </Col>
           <Col span={8}>
-            <img src={"./translator.png"} style={{ width: '100%' }}/>
+            <img src={"./translator.png"} alt="screenshot" style={{ width: '100%' }}/>
           </Col>
         </Row>
         <Divider/>

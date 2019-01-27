@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
 import {
-  Layout, Menu, Icon, Row, Col, Timeline, Tag, Card
+  Layout, Icon, Timeline, Tag
 } from 'antd';
 
-const { Header, Content } = Layout;
+const { Content } = Layout;
 
 class CvView extends Component {
 
