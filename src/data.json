@@ -20,19 +20,26 @@
       "educations": [
         {
           "date": "2015-2017",
-          "university": "Novosibirsk State University (NSU), Novosibirsk",
+          "university": "Novosibirsk State University (NSU), Novosibirsk.",
           "direction": "Master, Department of Information Technologies"
         },
         {
           "date": "2011-2015",
-          "university": "Novosibirsk State University (NSU), Novosibirsk",
+          "university": "Novosibirsk State University (NSU), Novosibirsk.",
           "direction": "Bachelor, Department of Information Technologies"
         }
       ],
       "workExperiances": [
         {
-          "date": "2015-until now",
-          "title": "Android Engeneer, Android Team Lead, Sibext Ltd, Novosibirsk",
+          "date": "May 2019-until now",
+          "title": "Android Engeneer, SKB Lab, Ekaterinburg.",
+          "about": [
+            "Development of internet banking android application."
+          ]
+        },
+        {
+          "date": "September 2015 - April 2019",
+          "title": "Android Team Lead, Android Engeneer,  Sibext Ltd, Novosibirsk.",
           "about": [
             "<b>1.</b> Design and development of android application for smart home. ",
             "Application contains network processing, includes interaction with server and with device (use proprietary protocol), and implementation of protocol that has written on C/C++, that connected to app via NDK/JNI. ",
