@@ -7,11 +7,11 @@
         "subtitle": "Software Engeneer"
       },
       "name": "Santaev Pavel",
-      "profession": "Android Software Engeneer at Sibext Ltd.",
+      "profession": "Android Software Engeneer at SKB Lab.",
       "location": "Novosibirsk, Russia."
     },
     "itemCV": {
-      "about": "I'am software engeneer from Russia with 4+ year experience.<br/>Currently work at Sibext as a<b> Android Team Lead</b>. My personal projects available on <a href=\"https://github.com/santaevpavel\">Github</a>.<br/></br>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a><br/><br/><i>Hobbies:</i> programming, football, table tennis.",
+      "about": "I'am software engeneer from Russia with 4+ year experience.<br/>Currently work at SKB Lab as a<b> Android Engeneer</b>. My personal projects available on <a href=\"https://github.com/santaevpavel\">Github</a>.<br/></br>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a><br/><br/><i>Hobbies:</i> programming, football, table tennis.",
       "keySkills": {
           "advanced": [ "Kotlin", "Java", "Android", "OOP", "Design patterns", "RxJava" ],
           "basic": [ "Kotlin/Native", "C/C++", "C#" , "Gradle", "Clean Architecture" ]
@@ -31,8 +31,8 @@
       ],
       "workExperiances": [
         {
-          "date": "May 2019-until now",
-          "title": "Android Engeneer, SKB Lab, Ekaterinburg.",
+          "date": "May 2019 - until now",
+          "title": "Android Engeneer, SKB Lab, Yekaterinburg.",
           "about": [
             "Development of internet banking android application."
           ]

@@ -18,7 +18,7 @@ class ContactsView extends Component {
       (
         <div>
           <Icon type={contact.icon} theme="outlined"/>
-          <a href={contact.link} onClick={(e) => this.onClickContact(contact.title)} >{contact.title}</a>
+          <a href={contact.link} onClick={(e) => this.onClickContact(contact.title)}> {contact.title}</a>
           <br/>
         </div>
       )

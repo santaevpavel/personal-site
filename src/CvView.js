@@ -34,7 +34,7 @@ class CvView extends Component {
     var timelines = this.props.data.educations.map(education =>
       (
         <Timeline.Item dot={<Icon type="book" theme="outlined"/>}>
-        <text>{education.date}</text>
+        <text style={{ color: "#666" }}>{education.date}</text>
         <br/>
         <b>{education.university}</b>
         <br/>
@@ -51,7 +51,7 @@ class CvView extends Component {
     var experiences = this.props.data.workExperiances.map(experience =>
       (
         <Timeline.Item dot={<Icon type="laptop" theme="outlined"/>}>
-        <text>{experience.date}</text>
+        <text style={{ color: "#666" }}>{experience.date}</text>
         <br/>
         <b>{experience.title}</b>
         <br/>
@@ -68,7 +68,7 @@ class CvView extends Component {
     var langs = this.props.data.languages.map(lang =>
       (
         <div>
-         <i>{lang.lang}</i> — {lang.level}<br/>
+         <Icon type="global" style={{ color: "#006d75" }}/> <i>{lang.lang}</i> — {lang.level}<br/>
         </div>
       )
     )
