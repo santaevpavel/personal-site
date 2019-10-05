@@ -7,14 +7,13 @@
         "subtitle": "Software Engeneer"
       },
       "name": "Santaev Pavel",
-      "profession": "Android Software Engeneer at SKB Lab.",
+      "profession": "Android Software Engeneer at SKB LAB.",
       "location": "Novosibirsk, Russia."
     },
     "itemCV": {
-      "about": "I'am software engeneer from Russia with 4+ year experience.<br/>Currently work at SKB Lab as a<b> Android Engeneer</b>. My personal projects available on <a href=\"https://github.com/santaevpavel\">Github</a>.<br/></br>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a><br/><br/><i>Hobbies:</i> programming, football, table tennis.",
+      "about": "I'am software engeneer from Russia, Novosibirsk with 4+ year experience.<br/>Currently work at SKB LAB as a<b> Android Engeneer</b>. My personal projects available on <a href=\"https://github.com/santaevpavel\">Github</a>.<br/></br>I had graduated Novosibirsk State University of Inforamtion Technology Department.<br/><i>Master's dissertation: </i>Santaev P. A, Vlasov A. A, Uramaev M. Sh., Development of software tools for solving problems of nuclear borehole geophysics. Key words: Monte-Carlo statistic method, simulation of passage of gamma-rays, nuclear borehole geophysics. <a href=\"http://jit.nsu.ru/article.php?13325+en_EN+11564\">(Link to dissertation).</a><br/><br/><i>Hobbies:</i> programming, football, table tennis.",
       "keySkills": {
-          "advanced": [ "Kotlin", "Java", "Android", "OOP", "Design patterns", "RxJava" ],
-          "basic": [ "Kotlin/Native", "C/C++", "C#" , "Gradle", "Clean Architecture" ]
+          "advanced": [ "Kotlin", "Java", "Android", "OOP", "Design patterns", "RxJava", "Clean Architecture" ]
       },
       "technologies": [ "Java", "Kotlin", "Android", "Gradle", "Clean Architecture" ],
       "educations": [
@@ -34,21 +33,23 @@
           "date": "May 2019 - until now",
           "title": "Android Engeneer, SKB Lab, Yekaterinburg.",
           "about": [
-            "Development of internet banking android application."
+            "Development of internet banking android application.<br/>",
+            "<a href=\"https://play.google.com/store/apps/details?id=ru.skbbank.ib\">App on Google Play</a><br/>",
+            "💻 <i>Technologies: Kotlin, RxJava2, Moxy, Retrofit, Toothpick, Cicerone.</i><br/>"
           ]
         },
         {
           "date": "September 2015 - April 2019",
           "title": "Android Team Lead, Android Engeneer,  Sibext Ltd, Novosibirsk.",
           "about": [
-            "<b>1.</b> Design and development of android application for smart home. ",
-            "Application contains network processing, includes interaction with server and with device (use proprietary protocol), and implementation of protocol that has written on C/C++, that connected to app via NDK/JNI. ",
+            "<b>1.</b> Design and development of android application for management of smart home. ",
+            "Application contains network processing, includes interaction with server and with device via proprietary protocol. Implementation of protocol has written on C/C++, and connected to the app via NDK/JNI. ",
             "Some features had been written on <a href=\"https://kotlinlang.org/docs/tutorials/native/mpp-ios-android.html\">Kotlin/Multiplatform</a>, Kotlin/Native (common code for Android and iOS)",
             "<i></i><br/><a href=\"https://play.google.com/store/apps/details?id=com.nesscorporation.mezzo\">(App on Google Play)</a><br/>",
-            "<i>Technologies: Kotlin/JVM, Java, RxJava, Moxy, NDK, C/C++, Retrofit, Kotlin/Native, Kotlin/Mulitplatform, Gitlab CI.</i><br/>",
-            "<i>Responsibilities</i>: development, design, identification and approvement of requirement, issue distribution, code review.<br/>",
-            "<b>2.</b> Development and supporting interactive books android application for kids. Application use Facebook, VK login feature and Google Play Services.<br/>",
-            "<i>Technologies: Java, RxJava, Moxy, Retrofit, JUnit, Mockito, Gitlab CI.</i><br/><a href=\"https://play.google.com/store/apps/details?id=com.azbooks.bookshelf\">(App on Google Play)</a><br/>"
+            "💻 <i>Technologies: Kotlin/JVM, Java, RxJava, Moxy, NDK, C/C++, Retrofit, Kotlin/Native, Kotlin/Mulitplatform, Gitlab CI.</i><br/>",
+            "👉 <i>Responsibilities</i>: development, design, identification and approvement of requirement, setting up continuous integration, code review.<br/><br/>",
+            "<b>2.</b> Development and supporting interactive books android application for kids. Application uses Facebook, VK login feature and Google Play Services.<br/>",
+            "💻 <i>Technologies: Java, RxJava, Moxy, Retrofit, JUnit, Mockito, Gitlab CI.</i><br/><a href=\"https://play.google.com/store/apps/details?id=com.azbooks.bookshelf\">(App on Google Play)</a><br/>"
           ]
         }
       ],

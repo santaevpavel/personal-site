@@ -19,9 +19,7 @@ class CvView extends Component {
   getSkills() {
     return (
       <div>
-        <h3>Advanced skills:</h3>{ this.props.data.keySkills.advanced.map(tag => <Tag>{ tag }</Tag>) }
-        <br/><br/>
-        <h3>Basic skills:</h3>{ this.props.data.keySkills.basic.map(tag => <Tag>{ tag }</Tag>) }
+        { this.props.data.keySkills.advanced.map(tag => <Tag>{ tag }</Tag>) }
       </div>
     )
   }
@@ -83,22 +81,22 @@ class CvView extends Component {
     return (
       <Layout className="layout">
         <Content className="ContentBlock">
-          <h2>About</h2>
+          <h2>About 🔍</h2>
           { this.getAbout() }
           <br/>
-          <h2>Key skills</h2>
+          <h2>Work experience 👩🏼‍💻</h2>
+          { this.getWorkExperiances() }
+          <h2>Key skills 🕺</h2>
           <div>
             { this.getSkills() }
           </div>
           <br/>
-          <h2>Education</h2>
-            { this.getEducations() }
-          <h2>Work experience</h2>
-          { this.getWorkExperiances() }
-          <h2>Languages</h2>
+          <h2>Education 👨🏼‍🎓</h2>
+          { this.getEducations() }
+          <h2>Languages 🈹</h2>
           { this.getLanguages() }
           <br/>
-          <h2>Technologies, Tools</h2>
+          <h2>Technologies, Tools 🔨</h2>
           { this.getTechnologies() }
           <br/>
         </Content>
