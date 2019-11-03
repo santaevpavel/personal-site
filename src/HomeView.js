@@ -7,13 +7,14 @@ import {
 
 const { Sider, Content } = Layout;
 
+
 class HomeView extends Component {
 
   render() {
     return (
       <Layout className="layout">
         <Content>
-          <div className="Container">
+          <div className="Container" style={{ height: '100vh' }}>
             <ProgressiveImage
               src="./img.jpg"
               placeholder="./img-tiny.jpg">
@@ -32,7 +33,7 @@ class HomeView extends Component {
             <Layout className="layout">
               <Sider style={{ background: '#fff' }}>
                 <Tooltip title="He is me!">
-                  <Avatar size={150} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
+                  <Avatar size={120} src="https://pp.userapi.com/c844720/v844720911/523fa/diye7SaxlfU.jpg"/>
                 </Tooltip>
               </Sider>
               <Content className="content" style={{ background: '#fff' }}>

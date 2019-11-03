@@ -14,7 +14,7 @@ import {
 } from 'antd';
 
 const { Header, Content } = Layout;
-const yandexMetrikaAppId = process.env.REACT_APP_YANDEX_METRIKA_APP_ID
+const yandexMetrikaAppId = 52006883
 
 class App extends Component {
 

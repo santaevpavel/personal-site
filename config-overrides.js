@@ -11,7 +11,7 @@ module.exports = function override(config, env) {
       '@primary-color': '#006d75',
       '@menu-dark-bg': '#ffffff00',
       '@menu-dark-item-active-bg': '@primary-color',
-      '@font-size-base' : '18px',
+      '@font-size-base' : '16px',
       '@font-size-lg' : '@font-size-base + 2px',
       '@font-size-sm' : '14px',
       '@font-weight' : '300',
@@ -19,7 +19,7 @@ module.exports = function override(config, env) {
       '@text-color-dark' : '#000000',
       '@tag-default-bg' : '#006d75',
       '@tag-default-color' : '#ffffff',
-      '@line-height-base' : '1.8',
+      '@line-height-base' : '2.0',
       '@font-family' : "'Fira Mono', sans-serif"
     },
     javascriptEnabled: true,

@@ -80,25 +80,27 @@ class CvView extends Component {
   render() {
     return (
       <Layout className="layout">
-        <Content className="ContentBlock">
-          <h2>About 🔍</h2>
-          { this.getAbout() }
-          <br/>
-          <h2>Work experience 👩🏼‍💻</h2>
-          { this.getWorkExperiances() }
-          <h2>Key skills 🕺</h2>
-          <div>
-            { this.getSkills() }
-          </div>
-          <br/>
-          <h2>Education 👨🏼‍🎓</h2>
-          { this.getEducations() }
-          <h2>Languages 🈹</h2>
-          { this.getLanguages() }
-          <br/>
-          <h2>Technologies, Tools 🔨</h2>
-          { this.getTechnologies() }
-          <br/>
+        <Content>
+            <div className="ContentBlock">
+              <h2>About 🔍</h2>
+              { this.getAbout() }
+              <br/>
+            </div>
+            <div className="ContentBlock">
+              <h2>Work experience 👩🏼‍💻</h2>
+              { this.getWorkExperiances() }
+            </div>
+            <div className="ContentBlock">
+              <h2>Technologies, Tools 🔨</h2>
+              { this.getTechnologies() }
+            </div>
+            <div className="ContentBlock">
+              <h2>Education 👨🏼‍🎓</h2>
+              { this.getEducations() }
+              <h2>Languages 🈹</h2>
+              { this.getLanguages() }
+              <br/>
+            </div>
         </Content>
   </Layout>
     );
